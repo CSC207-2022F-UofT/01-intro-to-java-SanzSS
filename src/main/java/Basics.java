@@ -148,7 +148,7 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
         String[] temp = to_split.split(" ");
         for (int i = 0; i != 8; i++){
-            ret.append(temp[i]);
+            ret.append(temp[i]);}
         // Fill in the rest of the body here
 
         return ret.toString();
