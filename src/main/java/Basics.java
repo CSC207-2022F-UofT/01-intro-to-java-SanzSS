@@ -43,7 +43,7 @@ public class Basics {
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
-        System.out.println("Hello World");
+        System.out.println("Hello World!");
 
 
 
@@ -101,7 +101,7 @@ public class Basics {
          * Current count: 1
          * Current count: 0
          */
-        for (int i = 0; i <= 10; i++){
+        for (int i = 10; i != 0; i--){
             System.out.println(i);
         }
 
@@ -147,7 +147,7 @@ public class Basics {
          */
         StringBuilder ret = new StringBuilder();
         String[] temp = to_split.split(" ");
-        for (int i = 0; i != 8; i++){
+        for (int i = 0; i != 7; i++){
             ret.append(temp[i]);}
         // Fill in the rest of the body here
 
